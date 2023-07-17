@@ -1,8 +1,8 @@
 const Color = {
   Feather_Green: "#58cc02",
   Mask_Green: "#89e219",
-  Eel: "#4b4b4b",
-  Snow: "#ffffff",
+  Eel: "#263238",
+  Snow: "#e5fffc",
   Macaw: "#1cb0f6",
   Cardinal: "#ff4b4b",
   Bee: "#ffc800",
@@ -14,6 +14,7 @@ const Color = {
   Swan: "#e5e5e5",
   Polar: "#f7f7f7",
   Beak_Upper: "#ffc200",
+  Our_Green: "#e5fffc",
 };
 
 export default Color;

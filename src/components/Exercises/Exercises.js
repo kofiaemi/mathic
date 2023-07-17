@@ -8,7 +8,7 @@ import { useNavigation } from "@react-navigation/native";
 const Exercises = ({ exercise }) => {
   const navigation = useNavigation();
   const url =
-    "https://raw.githubusercontent.com/abdulkadir-erdeger/duolingo-clone/master/assets/Icons/" +
+    "https://raw.githubusercontent.com/kofiaemi/mathic/main/assets/Icons/" +
     exercise.definition.picture;
 
   return (

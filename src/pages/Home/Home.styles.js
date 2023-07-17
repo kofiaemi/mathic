@@ -8,12 +8,12 @@ export default StyleSheet.create({
   container: {
     alignItems: "center",
     flex: 1,
-    backgroundColor: "#E5FFFC",
+    backgroundColor: Color.Our_Green,
     paddingTop: Platform.OS === "android" ? 50 : 0,
   },
   header: {
     flexDirection: "row",
-    backgroundColor: "#E5FFFC",
+    backgroundColor: Color.Our_Green,
     borderBottomColor: Color.Hare,
     borderBottomWidth: 1.5,
     width: width,

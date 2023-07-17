@@ -14,10 +14,10 @@
                   "isCompleted": true
                 },
                 "definition": {
-                  "name": "Temeller 1",
+                  "name": "Algebra 1",
                   "levels": 100,
                   "lessons": 3,
-                  "picture":"basics.png"
+                  "picture":"one.png"
                 },
                 "questions":{
                     "q1":{
@@ -62,7 +62,7 @@
                   "isCompleted": false
                 },
                 "definition": {
-                  "name": "Temeller 2",
+                  "name": "Algebra 2",
                   "levels": 70,
                   "lessons": 3,
                   "picture":"basics.png"
@@ -105,7 +105,7 @@
                   "isCompleted": false
                 },
                 "definition": {
-                  "name": "İfadeler",
+                  "name": "Algebra 3",
                   "levels": 50,
                   "lessons": 4,
                   "picture":"expression.png"
@@ -154,7 +154,7 @@
                   "isCompleted": false
                 },
                 "definition": {
-                  "name": "Yemekler",
+                  "name": "Algebra 4",
                   "levels": 20,
                   "lessons": 3,
                   "picture":"foods.png"
@@ -197,7 +197,7 @@
                   "isCompleted": false
                 },
                 "definition": {
-                  "name": "Hayvanlar",
+                  "name": "Algebra 5",
                   "levels": 0,
                   "lessons": 2,
                   "picture":"animals.png"
