@@ -27,24 +27,30 @@ export default StyleSheet.create({
     alignItems: "center",
   },
   countryLogo: {
+    fontSize: 15,
+    textAlign: "center",
     width: width * 0.12,
     height: height * 0.045,
   },
   diamondLogo: {
-    width: width * 0.06,
-    height: height * 0.04,
+    width: width * 0.05,
+    height: height * 0.03,
+    alignContent: "center",
+    marginLeft: 20,
+    marginRight: 10,
   },
   diamondText: {
     fontSize: 16,
-    color: Color.Macaw,
+    color: Color.Snow,
     margin: 5,
-    fontFamily: "Nunito_ExtraBold",
+    //fontFamily: "Nunito_ExtraBold",
+    textAlign: "center",
   },
   fireText: {
     fontSize: 16,
     color: Color.Fox,
     margin: 5,
-    fontFamily: "Nunito_ExtraBold",
+    //fontFamily: "Nunito_ExtraBold",
   },
   fireLogo: {
     width: width * 0.06,
@@ -70,4 +76,14 @@ export default StyleSheet.create({
     justifyContent: "space-evenly",
     paddingVertical: 10,
   },
+  profile: {
+    flexDirection: "row",
+    alignContent: "center",
+    alignItems: "center",
+    width: width * 0.35,
+    height: height * 0.05,
+    backgroundColor: Color.Charcoal,
+    borderRadius: 10,
+
+  }
 });

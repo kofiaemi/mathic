@@ -15,6 +15,7 @@ const Color = {
   Polar: "#f7f7f7",
   Beak_Upper: "#ffc200",
   Our_Green: "#e5fffc",
+  Charcoal: "#263238",
 };
 
 export default Color;

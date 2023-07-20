@@ -7,11 +7,11 @@ var height = Dimensions.get("window").height;
 export default StyleSheet.create({
   innerCircle: {
     opacity: 0.8,
-    borderRadius: 60,
+    borderRadius: 10,
     justifyContent: "center",
     alignItems: "center",
-    height: 120 * 0.75, // 90px
-    width: 120 * 0.75, // 90px
+    height: 120,
+    width: 120,
   },
   innerLogo: {
     width: 50,
@@ -19,7 +19,9 @@ export default StyleSheet.create({
   },
   innerButton: {
     alignItems: "center",
-    margin: 5,
+    marginLeft: 15,
+    marginRight: 15,
+    marginTop: 5
   },
   innerText: { fontFamily: "Nunito_Black", fontSize: 18, marginTop: 5 },
   body: {
@@ -31,4 +33,7 @@ export default StyleSheet.create({
     width: 200,
     marginBottom: 15,
   },
+  progressbar: {
+    marginTop: 10,
+  }
 });
