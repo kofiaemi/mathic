@@ -4,6 +4,9 @@ import Color from "../../../assets/Utilites/Color";
 import styles from "./Exercises.styles";
 import { AnimatedCircularProgress } from "react-native-circular-progress";
 import { useNavigation } from "@react-navigation/native";
+import AnimatedProgressBar from "react-native-progress-bar-animated";
+import ProgressBar from "react-native-animated-progress";
+
 
 const Exercises = ({ exercise }) => {
   const navigation = useNavigation();
@@ -19,19 +22,14 @@ const Exercises = ({ exercise }) => {
         }
         style={styles.innerButton}
       >
-        <AnimatedCircularProgress
-          size={120}
-          width={10}
-          fill={exercise.definition.levels}
-          rotation={135}
-          tintColor={Color.Beak_Upper}
-          backgroundColor={Color.Hare}
-        >
-          {() => (
+      
+            <View>
+              <Text>{}</Text>
+            </View>
             <View
               style={{
                 ...styles.innerCircle,
-                backgroundColor: Color.Feather_Green,
+                backgroundColor: Color.Charcoal,
               }}
             >
               <Image
@@ -41,9 +39,18 @@ const Exercises = ({ exercise }) => {
                 }}
                 resizeMode="cover"
               />
+              
             </View>
-          )}
-        </AnimatedCircularProgress>
+            <View style={{...styles.progressbar}}>
+            <AnimatedProgressBar
+                progress={exercise.definition.levels}
+                height={10}
+                width={styles.innerCircle.width}
+                backgroundColor={Color.Mask_Green}
+               />
+            </View>
+          
+        
         <Text style={styles.innerText}>{exercise.definition.name}</Text>
       </TouchableOpacity>
     )

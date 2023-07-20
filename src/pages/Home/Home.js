@@ -28,18 +28,18 @@ const Home = () => {
       <StatusBar style="auto" />
       <View style={styles.header}>
         <TouchableOpacity onPress={() => navigation.navigate("CountrySelect")}>
-          <Image
+          <Text
             style={styles.countryLogo}
-            defaultSource={require("../../../assets/Flag/turkey.png")}
-            source={require("../../../assets/Flag/turkey.png")}
-          />
+          >
+            XP
+          </Text>
         </TouchableOpacity>
-        <View style={styles.infoContainer}>
+        <View style={styles.profile}>
           <Image
             style={styles.diamondLogo}
-            source={require("../../../assets/Icons/diamond.png")}
+            source={require("../../../assets/Icons/profile-unactive.png")}
           />
-          <Text style={styles.diamondText}>100</Text>
+          <Text style={styles.diamondText}>Profile</Text>
         </View>
         <View style={styles.infoContainer}>
           <Image
