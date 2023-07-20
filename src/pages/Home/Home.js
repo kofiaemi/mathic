@@ -55,22 +55,7 @@ const Home = () => {
         renderItem={renderSection}
         keyExtractor={(item) => item.id}
         showsVerticalScrollIndicator={false}
-        ListHeaderComponent={
-          <View style={styles.body}>
-            <Image
-              style={styles.unitLogo}
-              source={require("../../../assets/Icons/unit1.png")}
-            />
-          </View>
-        }
-        ListFooterComponent={
-          <View style={styles.body}>
-            <Image
-              style={styles.unitLogo}
-              source={require("../../../assets/Icons/unit2.png")}
-            />
-          </View>
-        }
+        
       />
     </SafeAreaView>
   );
